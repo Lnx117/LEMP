@@ -10,7 +10,7 @@ docker compose run --user $(id -u):$(id -g) composer create-project laravel/lara
 
 Затем также находясь в корне, делаем 
 ```
-chmod -R 777 srс
+sudo chmod -R 777 src
 ```
 Так мы даем права для работы с файлами
 
