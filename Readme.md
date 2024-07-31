@@ -21,3 +21,22 @@ chmod -R 777 srс
 ```
 docker compose run artisan migrate
 ```
+
+После установки laravel не забываем поменять env на 
+```
+DB_CONNECTION=mysql
+DB_HOST=mysql
+DB_PORT=3306
+DB_DATABASE=laravel_db
+DB_USERNAME=laravel
+DB_PASSWORD=password
+```
+
+При поднятом контейнере laravel будет доступен по адресу
+http://localhost:8000/
+
+PhpMyAdmin будет доступен по
+http://localhost:8080/
+
+Логин laravel
+Пароль password
